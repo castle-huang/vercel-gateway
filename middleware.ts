@@ -23,7 +23,3 @@ export default function middleware(request: Request) {
         return rewrite(targetUrl);
     }
 }
-
-export const config = {
-    matcher: ['/auth/:path*', '/biz/:path*']
-};
